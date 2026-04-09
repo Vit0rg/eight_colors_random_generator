@@ -42,35 +42,39 @@ To trigger manually: **Actions → Generate Eight Colors → Run workflow**.
 | `.github/workflows/generate_colors.yml` | CI workflow |
 
 
+
+
 ## Latest Palette
+
+![#05DA70](https://img.shields.io/badge/-%2305DA70?style=flat&logo=none) ![#B33432](https://img.shields.io/badge/-%23B33432?style=flat&logo=none) ![#1789AF](https://img.shields.io/badge/-%231789AF?style=flat&logo=none) ![#3E3BFC](https://img.shields.io/badge/-%233E3BFC?style=flat&logo=none) ![#39CA2F](https://img.shields.io/badge/-%2339CA2F?style=flat&logo=none) ![#101BBB](https://img.shields.io/badge/-%23101BBB?style=flat&logo=none) ![#2DE17E](https://img.shields.io/badge/-%232DE17E?style=flat&logo=none) ![#FF05F2](https://img.shields.io/badge/-%23FF05F2?style=flat&logo=none)
 
 ```
 =====================================================================
-  Eight Colors - 2026-04-09 20:08:23
+  Eight Colors - 2026-04-09 20:40:17
 =====================================================================
 
 |Num|        HSL         |        RGB         |   Hex   |ANSI|
 +-----+----------------------+----------------------+-----------+------+
-| 1 | hsl(93, 46%, 43%)  | rgb(104, 160, 59)  | #68A03B |107 |
-| 2 | hsl(33, 63%, 40%)  | rgb(166, 108, 37)  | #A66C25 |137 |
-| 3 | hsl(176, 49%, 52%) | rgb(72, 192, 184)  | #48C0B8 | 80 |
-| 4 | hsl(193, 57%, 42%) | rgb(46, 141, 168)  | #2E8DA8 | 73 |
-| 5 | hsl(141, 60%, 31%) |  rgb(31, 126, 64)  | #1F7E40 | 65 |
-| 6 | hsl(44, 62%, 31%)  | rgb(128, 101, 30)  | #80651E |137 |
-| 7 | hsl(355, 95%, 48%) |  rgb(238, 6, 25)   | #EE0619 |196 |
-| 8 | hsl(290, 75%, 59%) | rgb(202, 72, 228)  | #CA48E4 |170 |
+| 1 | hsl(150, 95%, 44%) |  rgb(5, 218, 112)  | #05DA70 | 42 |
+| 2 |  hsl(1, 56%, 45%)  |  rgb(179, 52, 50)  | #B33432 |131 |
+| 3 | hsl(195, 76%, 39%) | rgb(23, 137, 175)  | #1789AF | 37 |
+| 4 | hsl(241, 97%, 61%) |  rgb(62, 59, 252)  | #3E3BFC | 63 |
+| 5 | hsl(116, 62%, 49%) |  rgb(57, 202, 47)  | #39CA2F | 77 |
+| 6 | hsl(236, 84%, 40%) |  rgb(16, 27, 187)  | #101BBB | 26 |
+| 7 | hsl(147, 75%, 53%) | rgb(45, 225, 126)  | #2DE17E | 78 |
+| 8 |hsl(303, 100%, 51%) |  rgb(255, 5, 242)  | #FF05F2 |201 |
 +-----+----------------------+----------------------+-----------+------+
 
 CSV Format (HSL, RGB, ANSI):
 HSL,RGB,ANSI
-hsl(93, 46%, 43%),rgb(104, 160, 59),107
-hsl(33, 63%, 40%),rgb(166, 108, 37),137
-hsl(176, 49%, 52%),rgb(72, 192, 184),80
-hsl(193, 57%, 42%),rgb(46, 141, 168),73
-hsl(141, 60%, 31%),rgb(31, 126, 64),65
-hsl(44, 62%, 31%),rgb(128, 101, 30),137
-hsl(355, 95%, 48%),rgb(238, 6, 25),196
-hsl(290, 75%, 59%),rgb(202, 72, 228),170
+hsl(150, 95%, 44%),rgb(5, 218, 112),42
+hsl(1, 56%, 45%),rgb(179, 52, 50),131
+hsl(195, 76%, 39%),rgb(23, 137, 175),37
+hsl(241, 97%, 61%),rgb(62, 59, 252),63
+hsl(116, 62%, 49%),rgb(57, 202, 47),77
+hsl(236, 84%, 40%),rgb(16, 27, 187),26
+hsl(147, 75%, 53%),rgb(45, 225, 126),78
+hsl(303, 100%, 51%),rgb(255, 5, 242),201
 
-Generated: 2026-04-09 20:08:23
+Generated: 2026-04-09 20:40:17
 ```

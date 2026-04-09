@@ -202,22 +202,33 @@ echo "Colors saved to ${OUTPUT_FILE}"
 # Update README.md with the latest palette
 README="${SCRIPT_DIR}/README.md"
 
-# Build the palette block from the output file (header through end)
-PALETTE_BLOCK=$(cat "${OUTPUT_FILE}")
+# Build the palette block from the output file
+TABLE_BLOCK=$(cat "${OUTPUT_FILE}")
+
+# Generate Shields.io badges for visual color rendering
+BADGES=""
+for i in {0..7}; do
+    hex=$(printf "%02X%02X%02X" ${RS[$i]} ${GS[$i]} ${BS[$i]})
+    BADGES+="![#${hex}](https://img.shields.io/badge/-%23${hex}?style=flat&logo=none) "
+done
+BADGES=$(echo "$BADGES" | sed 's/ $//')
+
+# Build shields.io markdown lines
+SHIELDS_LINE="$BADGES"
 
 # If README exists, update the palette section; otherwise create it
 if [[ -f "${README}" ]]; then
-    # Remove old palette section if present
     if grep -q '## Latest Palette' "${README}"; then
         sed -i '/## Latest Palette/,$ d' "${README}"
     fi
-    # Append new palette section
     {
         echo ""
         echo "## Latest Palette"
         echo ""
+        echo "${SHIELDS_LINE}"
+        echo ""
         echo '```'
-        echo "${PALETTE_BLOCK}"
+        echo "${TABLE_BLOCK}"
         echo '```'
     } >> "${README}"
 else
@@ -226,18 +237,12 @@ else
         echo ""
         echo "Generates 8 random colors with HSL, RGB, Hex, and ANSI values every 4 hours via GitHub Actions."
         echo ""
-        echo "## How It Works"
-        echo ""
-        echo "A shell script generates 8 random colors by picking random HSL values, converting to RGB, and calculating the closest ANSI 256 color code."
-        echo ""
-        echo "## Output"
-        echo ""
-        echo "Each run creates a file named \`MM_DD_YYYY_HH_MM_colors\`."
-        echo ""
         echo "## Latest Palette"
         echo ""
+        echo "${SHIELDS_LINE}"
+        echo ""
         echo '```'
-        echo "${PALETTE_BLOCK}"
+        echo "${TABLE_BLOCK}"
         echo '```'
     } > "${README}"
 fi
