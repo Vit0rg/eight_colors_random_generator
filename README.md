@@ -1,6 +1,6 @@
 # Eight Colors Random Generator
 
-Generates 8 random colors with HSL, RGB, Hex, and ANSI values every 4 hours via GitHub Actions.
+Generates 8 random colors with HSL, RGB, Hex, and ANSI values every 8 hours via GitHub Actions.
 
 ## How It Works
 
@@ -12,7 +12,7 @@ A shell script (`generate_colors.sh`) generates 8 random colors by:
 
 ## Output
 
-Each run creates a file named `MM_DD_YYYY_HH_MM_colors` containing:
+The current palette is stored in `current_colors`, containing:
 
 - **Table** — centered columns showing Num, HSL, RGB, Hex, and ANSI
 - **CSV** — machine-readable list of HSL, RGB, and ANSI values
@@ -29,7 +29,7 @@ bash generate_colors.sh
 
 ### Automatic (GitHub Actions)
 
-The workflow runs every 4 hours and commits the output file to the repository.
+The workflow runs every 8 hours and commits the output file to the repository.
 
 To trigger manually: **Actions → Generate Eight Colors → Run workflow**.
 
@@ -38,7 +38,7 @@ To trigger manually: **Actions → Generate Eight Colors → Run workflow**.
 | File | Description |
 |---|---|
 | `generate_colors.sh` | Main script |
-| `*_*_*_*_*_colors` | Generated color files |
+| `current_colors` | Current color palette |
 | `.github/workflows/generate_colors.yml` | CI workflow |
 
 

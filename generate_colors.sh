@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
 # Eight Colors Random Generator
-# Generates 8 random colors every 4 hours
+# Generates 8 random colors every 8 hours
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-TIMESTAMP=$(date '+%m_%d_%Y_%H_%M')
-OUTPUT_FILE="${SCRIPT_DIR}/${TIMESTAMP}_colors"
+OUTPUT_FILE="${SCRIPT_DIR}/current_colors"
 
 # Generate random number in range
 rand_range() {
