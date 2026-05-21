@@ -171,37 +171,38 @@ To trigger manually: **Actions → Generate Eight Colors → Run workflow**.
 
 
 
+
 ## Latest Palette
 
-![#5BB9DB](https://img.shields.io/badge/-%235BB9DB?style=flat&logo=none) ![#115EF7](https://img.shields.io/badge/-%23115EF7?style=flat&logo=none) ![#4A8F09](https://img.shields.io/badge/-%234A8F09?style=flat&logo=none) ![#B057F4](https://img.shields.io/badge/-%23B057F4?style=flat&logo=none) ![#C864DD](https://img.shields.io/badge/-%23C864DD?style=flat&logo=none) ![#328B31](https://img.shields.io/badge/-%23328B31?style=flat&logo=none) ![#C4E179](https://img.shields.io/badge/-%23C4E179?style=flat&logo=none) ![#A1C60A](https://img.shields.io/badge/-%23A1C60A?style=flat&logo=none)
+![#1ACB58](https://img.shields.io/badge/-%231ACB58?style=flat&logo=none) ![#6ADCB6](https://img.shields.io/badge/-%236ADCB6?style=flat&logo=none) ![#B0EE20](https://img.shields.io/badge/-%23B0EE20?style=flat&logo=none) ![#5C1FD4](https://img.shields.io/badge/-%235C1FD4?style=flat&logo=none) ![#CF85B7](https://img.shields.io/badge/-%23CF85B7?style=flat&logo=none) ![#5AB8D7](https://img.shields.io/badge/-%235AB8D7?style=flat&logo=none) ![#453898](https://img.shields.io/badge/-%23453898?style=flat&logo=none) ![#EB74DF](https://img.shields.io/badge/-%23EB74DF?style=flat&logo=none)
 
 ```
 =====================================================================
-  Eight Colors - 2026-05-20 18:09:52
+  Eight Colors - 2026-05-21 02:30:10
 =====================================================================
 
 |Num|        HSL         |        RGB         |   Hex   |ANSI|
 +-----+----------------------+----------------------+-----------+------+
-| 1 | hsl(196, 64%, 61%) | rgb(91, 185, 219)  | #5BB9DB |116 |
-| 2 | hsl(220, 94%, 52%) |  rgb(17, 94, 247)  | #115EF7 | 33 |
-| 3 | hsl(91, 88%, 30%)  |  rgb(74, 143, 9)   | #4A8F09 | 70 |
-| 4 | hsl(274, 88%, 65%) | rgb(176, 87, 244)  | #B057F4 |141 |
-| 5 | hsl(290, 64%, 63%) | rgb(200, 100, 221) | #C864DD |176 |
-| 6 | hsl(119, 48%, 37%) |  rgb(50, 139, 49)  | #328B31 | 71 |
-| 7 | hsl(77, 64%, 68%)  | rgb(196, 225, 121) | #C4E179 |186 |
-| 8 | hsl(72, 90%, 41%)  | rgb(161, 198, 10)  | #A1C60A |148 |
+| 1 | hsl(141, 77%, 45%) |  rgb(26, 203, 88)  | #1ACB58 | 78 |
+| 2 | hsl(160, 62%, 64%) | rgb(106, 220, 182) | #6ADCB6 |116 |
+| 3 | hsl(78, 86%, 53%)  | rgb(176, 238, 32)  | #B0EE20 |155 |
+| 4 | hsl(260, 74%, 48%) |  rgb(92, 31, 212)  | #5C1FD4 | 98 |
+| 5 | hsl(320, 44%, 67%) | rgb(207, 133, 183) | #CF85B7 |182 |
+| 6 | hsl(195, 61%, 60%) | rgb(90, 184, 215)  | #5AB8D7 |116 |
+| 7 | hsl(248, 46%, 41%) |  rgb(69, 56, 152)  | #453898 | 61 |
+| 8 | hsl(306, 75%, 69%) | rgb(235, 116, 223) | #EB74DF |212 |
 +-----+----------------------+----------------------+-----------+------+
 
 CSV Format (HSL, RGB, ANSI):
 HSL,RGB,ANSI
-hsl(196, 64%, 61%),rgb(91, 185, 219),116
-hsl(220, 94%, 52%),rgb(17, 94, 247),33
-hsl(91, 88%, 30%),rgb(74, 143, 9),70
-hsl(274, 88%, 65%),rgb(176, 87, 244),141
-hsl(290, 64%, 63%),rgb(200, 100, 221),176
-hsl(119, 48%, 37%),rgb(50, 139, 49),71
-hsl(77, 64%, 68%),rgb(196, 225, 121),186
-hsl(72, 90%, 41%),rgb(161, 198, 10),148
+hsl(141, 77%, 45%),rgb(26, 203, 88),78
+hsl(160, 62%, 64%),rgb(106, 220, 182),116
+hsl(78, 86%, 53%),rgb(176, 238, 32),155
+hsl(260, 74%, 48%),rgb(92, 31, 212),98
+hsl(320, 44%, 67%),rgb(207, 133, 183),182
+hsl(195, 61%, 60%),rgb(90, 184, 215),116
+hsl(248, 46%, 41%),rgb(69, 56, 152),61
+hsl(306, 75%, 69%),rgb(235, 116, 223),212
 
-Generated: 2026-05-20 18:09:52
+Generated: 2026-05-21 02:30:10
 ```
